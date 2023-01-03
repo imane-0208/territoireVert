@@ -1,0 +1,134 @@
+.contact{
+	margin-bottom: 4rem;
+	.form-container{
+		display: flex;
+		justify-content: center;
+		position: relative;
+		.sent-notification{
+			background-color: $green;
+			max-width: fit-content;
+			padding: .5rem;
+			border-radius: 5px;
+			color: $White;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			display: none;
+		}
+		.show-sent-notification{
+			display: block;
+			animation-name: showNotification ;
+			animation-duration: 2100ms;
+		}
+		@keyframes showNotification {
+			0% {
+				top: 90%;
+				opacity: 0;
+			}
+			50% {
+				top: 80%;
+				opacity: 1;
+			}
+			100% {
+				top: 70%;
+				opacity: 0;
+				display: none;
+			}
+		}
+			form{
+				display: flex;
+				flex-direction: column;
+				width: 70%;
+				max-width: 700px;
+				font-family: $Font-poppins;
+				font-size: 1rem;
+				text-align: center;
+				h2{
+					color: $paragraph-color;
+					font-family: $Font-poppins;
+				}
+				p{
+					margin-bottom: 1rem;
+				}
+				input,
+				textarea,
+				select{
+					border: 0;
+					margin: .8rem 0;
+					padding: 1rem;
+					outline: none;
+					background: $White;
+					border-radius: 10px;
+					color: $Navy;
+				}
+				input[type=number] {
+					-moz-appearance: textfield;
+				}
+				input::-webkit-outer-spin-button,
+				input::-webkit-inner-spin-button {
+				-webkit-appearance: none;
+				margin: 0;
+				}
+				.aprouve{
+					font-size: .8rem;
+					margin-bottom: 10px;
+					label{
+						margin-left: 3px;
+					}
+				}
+
+				.submit-btn{
+					background: transparent;
+					outline: none;
+					border: 2px solid $green;
+					border-radius: 5px;
+					padding: .7rem;
+					cursor: pointer;
+					font-family: $Font-poppins;
+					font-size: 1rem;
+					transition: transform 300ms ease-in-out;
+					max-width: fit-content;
+					align-self: center;
+					position: relative;
+					&:hover{
+						background: $green;
+						color: white;
+					}
+				}
+		}
+	}
+}
+
+
+
+@media (max-width: 850px) {
+	.contact{
+		.section-title{
+			h1{
+				font-size: 1.8rem;
+				text-align: center;
+			}
+		}
+		.form-container{
+			form{
+				width: 80%;
+				max-width: unset;
+				input,
+				textarea{
+					border: 0;
+					margin: .5rem 0;
+					padding: 1rem;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 600px) {
+	.contact{
+		.form-container{
+			form{
+				width: 100%;
+			}
+		}
+	}
+}

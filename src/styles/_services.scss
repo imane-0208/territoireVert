@@ -1,0 +1,57 @@
+.works{
+	margin-bottom: 2rem;
+
+	.services{
+		display: grid;
+		gap: 2rem;
+		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+		.service{
+			padding: 2rem;
+			background-color: white;
+			box-shadow: 0px 8px 10px 2px rgba(0,0,0,0.34);
+			min-height: 250px;
+			position: relative;
+			&::after{
+				content: "";
+				color: black;
+				position: absolute;
+				top: 0;
+				right: 0;
+				width: 100px;
+				height: 2px;
+				background-color: $green;
+			}
+			&::before{
+				content: "";
+				color: black;
+				position: absolute;
+				top: 50px;
+				right: -49px;
+				width: 100px;
+				height: 2px;
+				background-color: $yellow;
+				transform: rotate(90deg);
+			}
+			h2{
+				font-family: $Font-poppins;
+				font-weight: 400;
+				margin-bottom: 1rem;
+				color: $dark-grey;
+				cursor: pointer;
+			}
+			p{
+				font-size: 0.9rem;
+				color: $paragraph-color;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 450px) {
+	.works{
+		.services{
+			grid-template-columns: 1fr;
+		}	
+	}
+}

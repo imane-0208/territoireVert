@@ -1,0 +1,47 @@
+.mention{
+	h2{
+		text-transform: capitalize;
+	}
+
+	.logo-container{
+		display: flex;
+		justify-content: center;
+	}
+	.table{
+		overflow-x:auto;
+		table {
+			font-family: arial, sans-serif;
+			border-collapse: collapse;
+			width: 100%;
+			td, th {
+				border: 1px solid #dddddd;
+				text-align: left;
+				padding: 1rem;
+			}
+			th{
+				color: white;
+			}
+			span{
+				font-weight: bold;
+			}
+			
+			tr:nth-child(1) {
+			background-color: $green;
+			}
+		}
+	}
+	.btn-container{
+		display: flex;
+		justify-content: center;
+		margin: 1rem;
+		.back-home{
+			background: $green;
+			padding: .5rem;
+			border-radius: 5px;
+			border: none;
+			.link{
+				color: white;
+			}
+		}
+	}
+}
