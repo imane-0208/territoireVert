@@ -5,10 +5,11 @@ const Home = () => {
 	<div className='home' id='home'>
 		<section className='home-center container'>
 			<a href="#contact">
-				<h1>Décret tertiaire : <br /> Déclarer vos consommations énergétiques avant le 30 septembre 2022</h1>
+				{/* <h1>Confiez-nous votre déclaration sur OPERAT</h1> */}
+				<h1>Décret tertiaire : <br /> Confiez-nous votre déclaration sur OPERAT</h1>
             </a>
 		<button className="home-btn">
-			<a href="#contact">demander un devis</a>
+			<a href="#contact">Demander un devis</a>
 		</button>
 		</section>
 	</div>

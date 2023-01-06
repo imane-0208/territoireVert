@@ -18,7 +18,7 @@ nav{
 			}
 		}
 		.nav-links{
-			flex-basis: 40%;
+			flex-basis: 80%;
 			justify-self: flex-end;
 			display: flex;
 			justify-content: space-between;
@@ -41,6 +41,9 @@ nav{
 					color: white;
 					padding: .5rem;
 					border-radius: 5px;
+					&:hover {
+						background: $yellow;
+					}
 				}
 			}
 		}

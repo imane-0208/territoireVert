@@ -1,6 +1,6 @@
 .home-center{
-	background-image: url("../../public/images/img-bg.jpg");
-	filter: brightness(1.25);
+	
+	background:linear-gradient( rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20) ), url("../../public/images/img-bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 50vh;
@@ -35,7 +35,7 @@
 		a{
 			color: $dark-grey;
 			font-family: $Font-poppins;
-			text-transform: capitalize;
+			// text-transform: capitalize;
 		}
 		&::after{
 			content: "";

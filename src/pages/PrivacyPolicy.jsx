@@ -18,7 +18,7 @@ const PrivacyPolicy = () => {
 		La présente politique en matière de cookies explique ce que sont les cookies et comment nous les utilisons, les types de cookies que nous utilisons, c’est-à-dire les informations que nous recueillons à l’aide des cookies et comment ces informations sont utilisées, et comment contrôler les préférences en matière de cookies. Pour plus d’informations sur la manière dont nous utilisons, stockons et sécurisons vos données personnelles, consultez notre politique de confidentialité. <br />
 		Vous pouvez à tout moment modifier ou retirer votre consentement à la déclaration sur les cookies sur notre site web. <br />
 		Pour en savoir plus sur qui nous sommes, comment vous pouvez nous contacter et comment nous traitons les données personnelles, consultez notre Politique de confidentialité. <br />
-		Votre consentement s’applique aux domaines suivants : https://pixel-crm.com/
+		
 		</p>
 		<br />
 		<h2>Que sont les cookies ?</h2>

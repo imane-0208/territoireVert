@@ -5,21 +5,21 @@ export const links  = [
 		text:'Accueil',
 		url:'#home',
 	},
-	// {
-	// 	id:2,
-	// 	text:'À propos',
-	// 	url:'#about',
-	// },
 	{
 		id:3,
 		text:'NOS SERVICES',
 		url:'#works',
 	},
-	// {
-	// 	id:4,
-	// 	text:'CONTACT',
-	// 	url:'#contact',
-	// },
+	{
+		id:4,
+		text:'ANNUAIRE DES PRO',
+		url:'/annuaire-des-pro',
+	},
+	{
+		id:2,
+		text:'PROGRAMME',
+		// url:'#about',
+	},
 	{
 		id:5,
 		text:'Me faire appeler',
@@ -30,13 +30,13 @@ export const links  = [
 export const services = [
 	{
 		id: 1,
-		title: "Back Office CEE externalisé",
+		title: "Back office CEE externalisé",
 		text: 'Gagnez en temps et en qualité dans le montage de vos dossiers avec nos équipes spécialisées',
 		button: 'Parlons-en!'
 	},
 	{
 		id: 2,
-		title: "Devis Gratuit",
+		title: "Devis gratuit",
 		text: 'Recevez la meilleure offre de nos partenaires : Artisans, Bureaux d’études, Fournisseurs…Demander un',
 		button: 'Parlons-en!'
 	},
