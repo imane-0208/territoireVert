@@ -11,7 +11,7 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
 
-      emailjs.sendForm('service_5xiocum', 'template_lhpzudv', form.current, 'HUgVHHUAN5bWJ2zej')
+      emailjs.sendForm('service_p8t1m14', 'template_4rpxsm3', form.current, 'Ou0VKcm1B-ooxJ2kp')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -48,9 +48,9 @@ const Contact = () => {
             <option value="Pré-étude">Pré-étude</option>
           </select>
           
-          <input type="text" id='family-name' name='family-name' placeholder='Nom'  required/>
+          <input type="text" id='family-name' name='name' placeholder='Nom'  required/>
           <input type="email" id='email' name='email' placeholder='Email'  required/>
-          <input type="number" id='phone' name='phone' placeholder='Téléphone'  required/>
+          <input type="number" id='phone' name='phone' placeholder='Téléphone'/>
           <textarea id='message' rows='8' name='message' placeholder='A votre ecoute'  required></textarea>
           <div className="aprouve">
             <input type="checkbox" id='check-box' name='aprouve' required/>

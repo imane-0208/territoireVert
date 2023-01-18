@@ -18,9 +18,9 @@ const Navbar = () => {
         </h1>
         <ul className='nav-links'>
           <a href='/' className='link'>Accueil</a>
-          <a href='#works' className='link'>NOS SERVICES</a>
-          <Link to='/annuaire-des-pro' className='link'>ANNUAIRE DES PRO</Link>
-          <Link to='/' className='link'>PROGRAMME</Link>
+          <a href='#works' className='link'>Nos services</a>
+          <Link to='/annuaire-des-pro' className='link'>Annuaire des pro</Link>
+          <Link to='/' className='link'>Programme</Link>
           <a href='#contact' className='link'>Me faire appeler</a>
 
           {/* {links.map((link) =>{

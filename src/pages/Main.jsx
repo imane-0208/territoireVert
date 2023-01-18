@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Services from '../components/Services';
 import { useEffect } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 import React from 'react'
