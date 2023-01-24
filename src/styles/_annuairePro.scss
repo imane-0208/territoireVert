@@ -1,3 +1,4 @@
+@import "./variables";
 .s01 {
 
     background:linear-gradient( rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20) ), url("../../public/images/img-bg.jpg");
@@ -13,6 +14,7 @@
 	form {
 		width: 100%;
 		max-width: 1290px;
+		
 		
         fieldset{
             border:none;
@@ -39,7 +41,7 @@
 			justify-content: space-between;
 			-ms-flex-align: center;
 			align-items: center;
-			margin-left: 85px;
+			// margin-left: 85px;
 			background: #fff;
 			border-radius: 40px;
 			
@@ -87,8 +89,16 @@
 					width: 100%;
 					padding: 10px 32px;
 					font-size: 20px;
+					// option{
+					// 	color: $Navy;
+					// 	&:hover{
+					// 		background-color:$green;
+					// 		color: #fff;
+					// 	}
+					// }
 					
 				}
+				
 			}
 			// .input-field.first-wrap {
 			// 	-ms-flex-positive: 1;
@@ -113,6 +123,15 @@
 				flex-grow: 1;
 				border-left: solid 1px #cdcccc;
 				margin-right: 10px;
+				select {
+					option{
+						color: $Navy;
+						&:hover{
+							background: $green;
+							color: #fff;
+						}
+					}
+				}
 			}
 			.input-field.third-wrap {
 				// width: 25%;
@@ -121,6 +140,13 @@
 				flex-grow: 1;
 				border-left: solid 1px #cdcccc;
 				margin-right: 15px;
+				option {
+					color: $Navy;
+					&:hover {
+						background:$green;
+						color: #fff;
+					}
+				}
 			}
 			.input-field.fourth-wrap {
 				width: 220px;
@@ -129,7 +155,7 @@
 				.btn-search {
 					margin-top: 7px;
 					height: 81%;
-					width: 95%;
+					width: 100%;
 					background: $green;
 					white-space: nowrap;
 					border-radius:30px;
@@ -214,8 +240,10 @@
 				-ms-flex-wrap: wrap;
 				flex-wrap: wrap;
 				padding: 20px;
+				justify-self: center;
 				.input-field {
 					margin-right: 0;
+					align-self: center;
 					input {
 						padding: 5px 15px;
 						font-size: 16px;
@@ -224,16 +252,20 @@
 				.input-field.first-wrap {
 					width: 100%;
 					margin-bottom: 20px;
+					border: solid 1px #cdcccc;
+					border-radius: 5px;
 				}
 				.input-field.second-wrap {
 					width: calc(50% - 10px);
 					min-width: auto;
+					margin-bottom: 20px;
+					border: solid 1px #cdcccc;
+					border-radius: 5px;
 				}
 				.input-field.third-wrap {
 					width: calc(50% - 10px);
-					.btn-search {
-						font-size: 16px;
-					}
+					border: solid 1px #cdcccc;
+					border-radius: 5px;
 				}
 			}
 		}

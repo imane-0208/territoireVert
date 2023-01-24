@@ -3,16 +3,16 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Home from '../components/Home';
 // import Navbar from '../components/Navbar';
-import MyNavbar from '../components/MyNavbar';
 import Sidebar from '../components/Sidebar';
 import Services from '../components/Services';
+import MyNavbar from '../components/MyNavbar';
 import { useEffect } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 import React from 'react'
 
-const Main = () => {
+const Test = () => {
   useEffect(()=> {
 		window.scrollTo(0,0)
 	}, [])
@@ -29,4 +29,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Test

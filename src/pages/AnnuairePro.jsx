@@ -1,10 +1,11 @@
 
-import Navbar from '../components/Navbar';
+// import Navbar from '../components/Navbar';
+import MyNavbar from '../components/MyNavbar';
 import Footer from '../components/Footer';
 import { useEffect } from 'react'
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { FaSistrix } from "react-icons/fa";
+// import { FaSistrix } from "react-icons/fa";
 
 
 const AnnuairePro = () => {
@@ -13,9 +14,9 @@ const AnnuairePro = () => {
 	}, [])
   return (
 	<div>
-		<Navbar />
+		<MyNavbar />
         <div className="s01 container">
-            <form>
+            <form className="row d-flex justify-content-center mb-5">
                 <fieldset>
                     <legend>DECOUVREZ NOS PARTENAIRES</legend>
                 </fieldset>
@@ -25,7 +26,7 @@ const AnnuairePro = () => {
                     </div>
                     <div className="input-field second-wrap">
                         {/* <input id="search" type="text" placeholder="Categorie" /> */}
-                        <select type="text" id='subject' name='subject' placeholder='Selectioner votre service' required>
+                        <select type="text" id='subject' name='subject' placeholder='Selectioner votre service' >
                             <option value="" >Categorie</option>
                             <option value="Décret tertiaire Phase 1">Artisans</option>
                             <option value="Back Office CEE externalisé">Installateurs d'équipements</option>
@@ -37,7 +38,7 @@ const AnnuairePro = () => {
                     </div>
                     <div className="input-field third-wrap">
                         {/* <input id="location" type="text" placeholder="Région" /> */}
-                        <select type="text" id='subject' name='subject' placeholder='Selectioner votre service' required>
+                        <select type="text" id='subject' name='subject' placeholder='Selectioner votre service' >
                             <option value="" >Région</option>
                             <option value="Décret tertiaire Phase 1">Auvergne-Rhône-Alpes</option>
                             <option value="Back Office CEE externalisé">Bourgogne-Franche-Comté</option>
@@ -72,7 +73,7 @@ const AnnuairePro = () => {
         <div className="container content">
             <div className="row">
 
-                <div className="card col-md-5 p-3 mt-5 mb-5">
+                <div className="card col-md-5 p-3 mt-5 ">
                     <div className="row ">
                         <div className="col-md-4">
                             <img className="w-100" src="images/Logo-taragroup.png"/>
@@ -82,14 +83,14 @@ const AnnuairePro = () => {
                                 <h4 className="card-title">Terra Groupe</h4>
                                 <p className="card-text text-justify">Bureaux d'études</p>
                                 <p className="card-text text-justify">Île-de-France</p>
-                                <p className="card-text text-justify">contact@terra-groupe.fr</p>
-                                <p className="card-text text-justify"> 01 76 46 03 56</p>
+                                {/* <p className="card-text text-justify">contact@terra-groupe.fr</p>
+                                <p className="card-text text-justify"> 01 76 46 03 56</p> */}
                                 <a href="https://terra-groupe.fr/" className="btn">Explorer</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="card col-md-5 p-3 mt-5 mb-5">
+                <div className="card col-md-5 p-3 mt-5">
                     <div className="row ">
                         <div className="col-md-4">
                             <img className="w-100" src="images/logo-sirce.png"/>
@@ -99,8 +100,8 @@ const AnnuairePro = () => {
                                 <h4 className="card-title">S.I.R.C.E Energie</h4>
                                 <p className="card-text text-justify">Artisans</p>
                                 <p className="card-text text-justify">Centre-Val de Loire</p>
-                                <p className="card-text text-justify">cee@sirceenergie.fr</p>
-                                <p className="card-text text-justify"> 02.48.50.86.71</p>
+                                {/* <p className="card-text text-justify">cee@sirceenergie.fr</p>
+                                <p className="card-text text-justify"> 02.48.50.86.71</p> */}
                                 <a href="https://sirceenergie.fr/" className="btn">Explorer</a>
                             </div>
                         </div>
@@ -116,8 +117,8 @@ const AnnuairePro = () => {
                                 <h4 className="card-title">Smart Watteo</h4>
                                 <p className="card-text text-justify">Bureaux d'études, Solutions digitales</p>
                                 <p className="card-text text-justify">Île-de-France</p>
-                                <p className="card-text text-justify">contact@smartwatteo.fr</p>
-                                <p className="card-text text-justify"> 06 29 30 68 72</p>
+                                {/* <p className="card-text text-justify">contact@smartwatteo.fr</p>
+                                <p className="card-text text-justify"> 06 29 30 68 72</p> */}
                                 <a href="https://www.smartwatteo.fr/" className="btn">Explorer</a>
                             </div>
                         </div>

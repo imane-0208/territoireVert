@@ -31,7 +31,7 @@ const Footer = () => {
 					</div>
 					<div className="col-md text-md-center">
 						<ul className="social list-unstyled">
-							<li><a className="icon" href="#"><FaFacebookSquare/></a></li>
+							<li><a className="icon" href="https://www.facebook.com/profile.php?id=100087160362666"><FaFacebookSquare/></a></li>
 							<li><a className="icon" href="https://www.linkedin.com/showcase/territoire-vert"><FaLinkedin/></a></li>
 						</ul>
 						<p className=""><a href="#contact" className="btn btn-tertiary">Contactez nous</a></p>

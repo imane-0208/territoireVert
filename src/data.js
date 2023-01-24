@@ -17,7 +17,7 @@ export const links  = [
 	},
 	{
 		id:2,
-		text:'PROGRAMME',
+		text:'Ressources',
 		// url:'#about',
 	},
 	{

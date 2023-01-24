@@ -1,0 +1,85 @@
+@import "./variables";
+
+
+.nav{
+	position: sticky;
+	top: 0;
+	background-color: white;
+	z-index: 1;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	.nav-container{
+		.logo{
+			img{
+				max-width: 100px;
+			}
+		}
+        .nav-links{
+			flex-basis: 70%;
+			justify-self: flex-end;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			// text-transform: capitalize;
+			.link{
+				// text-transform: uppercase;
+				.direction{
+                    font-size: .9rem;
+                    font-family: $Font-poppins;
+                    font-weight: 300;
+                    color: $dark-grey;
+                    position: relative;
+                    letter-spacing: 1px;
+                    transition: color ease-in-out 300ms;
+                    &:hover{
+                        color: $green;
+                    }
+                    
+                }
+                &:last-child {
+                    .direction{
+                        background: $green;
+                        color: white;
+                        padding: .5rem;
+                        border-radius: 5px;
+                        &:hover{
+                            background: $yellow;
+                        }
+                    }
+                }
+				// @media (max-width: 1050px) {
+				// 	font-size: .8rem;
+				// }
+			}
+            .dropdown {
+                color: $dark-grey;
+                &:hover{
+                    color: $green;
+                }
+				.dropdown-menu {
+					// color: $dark-grey;
+					transition: all 0.5s;
+					overflow: hidden;
+					transform-origin: top center;
+					transform: scale(1,0);
+					display: block;
+					.dropdown-item{
+						.dropdown-link{
+                            color: $dark-grey;
+                            &:hover {
+                                background:$green;
+                                color:white;
+                            }
+                        }
+			
+					}
+				}
+				&:hover {
+					.dropdown-menu {
+						transform: scale(1);
+					}
+				}
+			}
+		}
+    }
+    
+}        
