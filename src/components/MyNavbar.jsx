@@ -27,7 +27,7 @@ const MyNavbar = () => {
               <NavDropdown.Item className="dropdown-item"><Link className="dropdown-link"  to="/resources-TPE-PME-PMI">TPE-PME/PMI</Link></NavDropdown.Item>
               <NavDropdown.Item className="dropdown-item"><Link className="dropdown-link"  to="/resources-transports">Transports</Link></NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className="link"><Link className="direction" to="/">Me faire appeler</Link></Nav.Link>
+            <Nav.Link className="link" href="#contact"><a href="#contact" className="direction">Me faire appeler</a></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
