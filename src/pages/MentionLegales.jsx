@@ -1,6 +1,6 @@
-import React from 'react'
+import React , {useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { useEffect } from 'react'
+// import { useEffect } from 'react'
 
 
 const MentionLegal = () => {

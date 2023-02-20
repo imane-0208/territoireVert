@@ -1,0 +1,52 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"plugins": ["prettier"],
+	"extends": ["plugin:prettier/recommended"],
+	"parserOptions": {
+		"ecmaVersion": 2018
+	},
+	"rules": {
+		"react/jsx-uses-react": "off",
+		"react/react-in-jsx-scope": "off",
+		"no-tabs": 0,
+		"indent": [
+			// 2, "tab"
+			"off"
+			
+		],
+		// "prettier/prettier": "error",
+		"prettier/prettier": 0,
+		
+		
+	
+		// "indent": [
+		//     "off",
+		//     "error",
+		//     "tab"
+			
+		// ],
+		"linebreak-style": [
+			0,
+			"error",
+			"windows"
+		],
+		"quotes": [
+			"error",
+			"double"
+		],
+		"semi": [
+			 "off"
+		
+		]
+		
+		// suppress errors for missing 'import React' in files
+		// "react/jsx-uses-react": "off",
+		// "react/react-in-jsx-scope": "off",
+		// allow jsx syntax in js files (for next.js project)
+		// "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }] //should add ".ts" if typescript project
+
+	}
+}

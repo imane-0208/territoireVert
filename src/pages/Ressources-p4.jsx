@@ -1,11 +1,11 @@
+import React , {useState, useEffect } from 'react'
 import Footer from '../components/Footer';
 import MyNavbar from '../components/MyNavbar';
 // import Navbar from '../components/Navbar';
-import { useEffect } from 'react'
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
-import React from 'react'
 
 const Ressources4 = () => {
   useEffect(()=> {
