@@ -1,6 +1,6 @@
-import React , {useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
-// import { useEffect } from 'react'
+import React , {useState, useEffect } from "react"
+import { Link } from "react-router-dom"
+// import { useEffect } from "react"
 
 
 const MentionLegal = () => {
@@ -8,9 +8,9 @@ const MentionLegal = () => {
 		window.scrollTo(0,0)
 	}, [])
   return (
-    <div className='mention container'>
+    <div className="mention container">
       <div className="logo-container">
-			  <img className='privacy-logo'  src="images/big-logo.png" alt="logo" />
+			  <img className="privacy-logo"  src="images/big-logo.png" alt="logo" />
 		  </div>
       <h2>1. Mentions légales</h2>
       <div className="table">
@@ -32,8 +32,8 @@ const MentionLegal = () => {
             <td>
               <span>GREENLEAD </span> <br />
               société par actions simplifiée, au capital social de 100 00 € et immatriculée sous 
-              le SIREN 900696691, Située à PARIS (75018), elle est spécialisée dans le secteur d'activité de 
-              l'ingénierie, études techniques
+              le SIREN 900696691, Située à PARIS (75018), elle est spécialisée dans le secteur d"activité de 
+              l"ingénierie, études techniques
               Directeur de la publication M. Younes ROCHDI
               <br /> <br />
               Directeur de la publication M. Younes ROCHDI <br /> <br />
@@ -114,8 +114,8 @@ const MentionLegal = () => {
         </p>
       </section>
       <div className="btn-container">
-			<button className='back-home'>
-				<Link className='link' to="/">Revenir sur la page d'accueil</Link>
+			<button className="back-home">
+				<Link className="link" to="/">Revenir sur la page d"accueil</Link>
 			</button>
 		</div>
     </div>

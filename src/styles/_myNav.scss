@@ -38,18 +38,38 @@
                 &:last-child {
                     .direction{
                         background: $green;
+						border: 2px solid $green;
                         color: white;
                         padding: .5rem;
                         border-radius: 5px;
                         &:hover{
+							border: 2px solid $yellow;
                             background: $yellow;
                         }
                     }
                 }
+				
+                    .subscribe{
+                        border: 2px solid $green;
+						color: $green;
+						padding: .5rem;
+						border-radius: 5px;
+						&:hover{
+							
+							background: $green;
+							color: white;
+						}
+					}
+                
+            }
+
 				// @media (max-width: 1050px) {
 				// 	font-size: .8rem;
 				// }
-			}
+		}
+			
+
+			
             .dropdown {
                 color: $dark-grey;
                 &:hover{
@@ -81,5 +101,15 @@
 			}
 		}
     }
+
+	// .subscribe{
+	// 	border: 2px solid $green;
+	// 			padding: .5rem;
+	// 			border-radius: 5px;
+	// 			&:hover{
+	// 				background: $green;
+	// 				color: white;
+	// 			}
+	// 		}
     
-}        
+       

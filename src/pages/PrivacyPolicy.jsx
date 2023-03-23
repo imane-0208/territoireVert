@@ -1,5 +1,5 @@
-import React , { useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import React , { useEffect } from "react"
+import { Link } from "react-router-dom"
 
 
 const PrivacyPolicy = () => {	
@@ -7,11 +7,11 @@ const PrivacyPolicy = () => {
 		window.scrollTo(0,0)
 	}, [])
   return (
-	<div className='privacy container'>
+	<div className="privacy container">
 		<div className="logo-container">
-			<img className='privacy-logo'  src="images/big-logo.png" alt="logo" />
+			<img className="privacy-logo"  src="images/big-logo.png" alt="logo" />
 		</div>
-		<h1 className='title'>Politique de confidentialité</h1>
+		<h1 className="title">Politique de confidentialité</h1>
 		<br />
 		<h2>A propos de cette politique en matière de cookies</h2>
 		<p>
@@ -58,8 +58,8 @@ const PrivacyPolicy = () => {
 		</p>
 
 		<div className="btn-container">
-			<button className='back-home'>
-			<Link className='link' to="/">Revenir sur la page d'accueil</Link>
+			<button className="back-home">
+			<Link className="link" to="/">Revenir sur la page d"accueil</Link>
 			</button>
 		</div>
 	</div>

@@ -24,12 +24,15 @@ html{
 	list-style: none;
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
+	
 	// color: $White;
 }
 
 body{
 	background-color: white;
 	color: $dark-grey;
+	background-color: aliceblue;
+	
 }
 
 a{
@@ -59,8 +62,8 @@ p {
 @media (min-width: 1200px) {
 	.container{
 		width: 1200px;
-		padding:  0 2rem;
-		// background-color: aliceblue;
+		padding:  0 3rem;
+		
 	}
 }
 @media (max-width: 1200px) {

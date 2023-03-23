@@ -1,13 +1,13 @@
-import React from 'react'
-import { services } from '../data'
-import { useGlobalContext } from '../Context'
+import React from "react"
+import { services } from "../data"
+import { useGlobalContext } from "../Context"
 
 
 const Works = () => {
   const {setService} = useGlobalContext();
 
   return (
-	<div className='works' id='works'>
+	<div className="works" id="works">
     <div className="works-center container reveal">
         <section className="section-title">
         <h1>Nos services</h1>

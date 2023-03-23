@@ -1,13 +1,13 @@
-import React from 'react'
-// import { links } from '../data'
+import React from "react"
+// import { links } from "../data"
 import { Link } from "react-router-dom";
-// import 'bootstrap/dist/css/bootstrap.min.css'
-import { GiHamburgerMenu}  from 'react-icons/gi'
-import { useGlobalContext } from '../Context'
-// import Container from 'react-bootstrap/Container';
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
+// import "bootstrap/dist/css/bootstrap.min.css"
+import { GiHamburgerMenu}  from "react-icons/gi"
+import { useGlobalContext } from "../Context"
+// import Container from "react-bootstrap/Container";
+// import Nav from "react-bootstrap/Nav";
+// import Navbar from "react-bootstrap/Navbar";
+// import NavDropdown from "react-bootstrap/NavDropdown";
 
 
 const Navbar = () => {
@@ -18,9 +18,9 @@ const Navbar = () => {
 
     // <Navbar className="" bg="light" expand="lg">
     //   <Container className="">
-    //     <Navbar.Brand href="#home" className='logo'><img src="images/big-logo.png" alt="logo" /></Navbar.Brand>
+    //     <Navbar.Brand href="#home" className="logo"><img src="images/big-logo.png" alt="logo" /></Navbar.Brand>
     //     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    //     <Navbar.Collapse className='justify-content-end' id="basic-navbar-nav">
+    //     <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
     //       <Nav className="me-auto">
     //         <Nav.Link className="link" href="#home">Home</Nav.Link>
     //         <Nav.Link className="link" href="#link">Link</Nav.Link>
@@ -77,9 +77,9 @@ const Navbar = () => {
     //   </div>
     // </nav>
     <nav >
-      <div className='navbar container'>
+      <div className="navbar container">
         <h1 >
-          <a href='#home' className="logo">
+          <a href="#home" className="logo">
             <img src="images/big-logo.png" alt="logo" />
           </a>
         </h1>
@@ -87,17 +87,17 @@ const Navbar = () => {
           <span class="navbar-toggler-icon"></span>
         </button> */}
         {/* <div id="navbarSupportedContent"> */}
-        <ul className='nav-links' >
-          <a href='/' className='link'>Accueil</a>
-          <a href='#works' className='link'>Nos services</a>
-          <Link to='/annuaire-des-pro' className='link'>Annuaire des pro</Link>
+        <ul className="nav-links" >
+          <a href="/" className="link">Accueil</a>
+          <a href="#works" className="link">Nos services</a>
+          <Link to="/annuaire-des-pro" className="link">Annuaire des pro</Link>
           <div class="dropdown">
             <a class=" dropdown-toggle link" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
               Ressources
             </a>
             <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton2">
               <li><Link class="dropdown-item" to="/resources-batiment">Bâtiment</Link></li>
-              <li><Link class="dropdown-item" to="/resources-education-aux-economies-energie">Education aux économies d'énergie</Link></li>
+              <li><Link class="dropdown-item" to="/resources-education-aux-economies-energie">Education aux économies d"énergie</Link></li>
               <li><Link class="dropdown-item" to="/resources-industrie">Industrie</Link></li>
               <li><Link class="dropdown-item" to="/resources-TPE-PME-PMI">TPE-PME/PMI</Link></li>
               <li><Link class="dropdown-item" to="/resources-transports">Transports</Link></li>
@@ -107,21 +107,21 @@ const Navbar = () => {
 
               
           
-          <a href='#contact' className='link'>Me faire appeler</a>
+          <a href="#contact" className="link">Me faire appeler</a>
 
           {/* {links.map((link) =>{
             const {id, text, url} = link;
             return(
               <Link to={url} 
               key={id}
-              className='link'
+              className="link"
               onClick={handelClick}
               >{text}</Link>
             )
           })} */}
         </ul>
         </div>
-        <GiHamburgerMenu className='burger' onClick={ openSideBar}/>
+        <GiHamburgerMenu className="burger" onClick={ openSideBar}/>
     {/* </div> */}
     </nav>
   )

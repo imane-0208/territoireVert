@@ -1,19 +1,19 @@
 
-import './styles/index.scss';
-import { BrowserRouter } from 'react-router-dom';
-import { Route } from 'react-router-dom';
-import MentionLegal from './pages/MentionLegales';
-import Main from './pages/Main'
-import PrivacyPolicy from './pages/PrivacyPolicy'
-import AnnuairePro from './pages/AnnuairePro'
-import Ressources1 from './pages/Ressources-p1';
-import Ressources2 from './pages/Ressources-p2';
-import Ressources3 from './pages/Ressources-p3';
-import Ressources4 from './pages/Ressources-p4';
-import Ressources5 from './pages/Ressources-p5';
-import Test from './pages/test';
+import "./styles/index.scss";
+import { BrowserRouter } from "react-router-dom";
+import { Route } from "react-router-dom";
+import MentionLegal from "./pages/MentionLegales";
+import Main from "./pages/Main"
+import PrivacyPolicy from "./pages/PrivacyPolicy"
+import AnnuairePro from "./pages/AnnuairePro"
+import Ressources1 from "./pages/Ressources-p1";
+import Ressources2 from "./pages/Ressources-p2";
+import Ressources3 from "./pages/Ressources-p3";
+import Ressources4 from "./pages/Ressources-p4";
+import Ressources5 from "./pages/Ressources-p5";
+import Test from "./pages/test";
 
-// import Ressources6 from './pages/Ressources-p6';
+// import Ressources6 from "./pages/Ressources-p6";
 
 
 function App() {

@@ -1,9 +1,9 @@
-import React , {useState, useEffect } from 'react'
-import Footer from '../components/Footer';
-import MyNavbar from '../components/MyNavbar';
-// import Navbar from '../components/Navbar';
+import React , {useState, useEffect } from "react"
+import Footer from "../components/Footer";
+import MyNavbar from "../components/MyNavbar";
+// import Navbar from "../components/Navbar";
 
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap/dist/css/bootstrap.min.css"
 
 
 

@@ -6,9 +6,9 @@ export const AppProvider = ({children}) => {
 	const [isSidebarOpen, SetIsSidebarOpen] = useState(false);
 	const [service, setService] = useState("");
 	
-	window.addEventListener('scroll', reveal);
+	window.addEventListener("scroll", reveal);
 	function reveal(){
-		var reveals = document.querySelectorAll('.reveal');
+		var reveals = document.querySelectorAll(".reveal");
 
 		for (var i = 0; i < reveals.length; i++)
 		{
@@ -17,9 +17,9 @@ export const AppProvider = ({children}) => {
 			var revealPoint = 0;
 
 			if (revealTop < windowHeight - revealPoint)
-				reveals[i].classList.add('active');
+				reveals[i].classList.add("active");
 			// else
-			// 	reveals[i].classList.remove('active');
+			// 	reveals[i].classList.remove("active");
 		}
 	}
 

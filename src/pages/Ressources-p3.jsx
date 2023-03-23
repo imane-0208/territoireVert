@@ -1,9 +1,9 @@
-import React , {useState, useEffect } from 'react'
-import Footer from '../components/Footer';
-import MyNavbar from '../components/MyNavbar';
-// import Navbar from '../components/Navbar';
+import React , {useState, useEffect } from "react"
+import Footer from "../components/Footer";
+import MyNavbar from "../components/MyNavbar";
+// import Navbar from "../components/Navbar";
 
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap/dist/css/bootstrap.min.css"
 
 
 
@@ -27,8 +27,8 @@ const Ressources3 = () => {
               <div className="card">
                 <div className="card-body">
                   <h2 className="card-title">ATEE - 2023</h2>
-                  <p className="card-text">organisme de formation aidant les professionnels et les entreprises à améliorer l'efficacité énergétique et 
-                  l'utilisation des énergies renouvelables pour être plus éco-responsables dans leur activité.</p>
+                  <p className="card-text">organisme de formation aidant les professionnels et les entreprises à améliorer l"efficacité énergétique et 
+                  l"utilisation des énergies renouvelables pour être plus éco-responsables dans leur activité.</p>
                   <a href="https://www.prorefei.org/" className="btn ">Decouvrez le programme</a>
                 </div>
               </div>

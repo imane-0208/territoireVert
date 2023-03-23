@@ -1,11 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-// import { BsLinkedin} from 'react-icons/bs'
+import React from "react"
+import { Link } from "react-router-dom"
+// import { BsLinkedin} from "react-icons/bs"
 import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-		<div className='footer-48201'>
+		<div className="footer-48201 mt-5">
 			<div className="container">
 					<div className="row">
 					<div className="col-md-4 pr-md-5">
@@ -22,8 +22,8 @@ const Footer = () => {
 					</div>
 					<div className="col-md">
 						<ul className="list-unstyled nav-links">
-						<li><Link to='/annuaire-des-pro' className='link'>Annuaire des pro</Link></li>
-						<li><Link to='/' className='link'>Programme</Link></li>
+						<li><Link to="/annuaire-des-pro" className="link">Annuaire des pro</Link></li>
+						<li><Link to="/" className="link">Programme</Link></li>
 						<li><Link  classNameName="link" to="/mention-legales" >Mentions légales</Link></li>
 						<li><Link classNameName="link" to="/donnees-personnelles">Politique de confidentialité</Link></li>
 						
